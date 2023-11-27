@@ -1,6 +1,6 @@
 $primary-color: #3498db;
 $secondary-color: #2ecc71;
-$warnig-color:red;
+$warnig-color: red;
 $hover-color: #2980b9;
 
 .pricing-table {
@@ -28,7 +28,6 @@ $hover-color: #2980b9;
           margin-bottom: 5px;
         }
       }
-
     }
 
     th {
@@ -54,9 +53,9 @@ $hover-color: #2980b9;
     }
   }
   .green {
-color: $secondary-color;
+    color: $secondary-color;
   }
-  .red{
+  .red {
     color: $warnig-color;
   }
 
@@ -90,12 +89,11 @@ color: $secondary-color;
 
   @media only screen and (max-width: 768px) {
     table {
-
-overflow-y: auto;
+      overflow-y: auto;
       th,
       td {
         overflow-x: auto;
-                width: 100%;
+        width: 100%;
       }
     }
   }
