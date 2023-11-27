@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js"></script>
+  </head>
+
+  <body>
+    <div class="pricing-table">
+      <div class="toggle-header">
+        <span class="monthly">Щомісячно</span>
+        <span class="yearly">Щорічно</span>
+        <div class="toggle-switch">
+          <label>
+            <input type="checkbox" id="billing-toggle" />
+            <span class="slider"></span>
+          </label>
+        </div>
+      </div>
+      <table>
+        <thead>
+          <tr>
+            <th></th>
+            <th>Базовий</th>
+            <th>Стандарт</th>
+            <th>Преміум</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Назва</td>
+            <td>Базовий</td>
+            <td>Стандарт</td>
+            <td>Преміум</td>
+          </tr>
+          <tr>
+            <td>Ціна</td>
+            <td data-monthly="$9.99" data-yearly="$99.99">--</td>
+            <td data-monthly="$19.99" data-yearly="$199.99">--</td>
+            <td data-monthly="$29.99" data-yearly="$299.99">--</td>
+          </tr>
+          <tr>
+            <td>Частота рахунків</td>
+            <td monthly="Щомісячно" >--</td>
+            <td monthly="Щомісячно" >--</td>
+            <td monthly="Щомісячно" >--</td>
+          </tr>
+          <tr>
+            <td>Особливості</td>
+            <td>
+              <ul>
+                <li><span class="green">✔</span> Функція 1</li>
+                <li><span class="green">✔</span> Функція 2</li>
+                <li><span class="red">✘</span> Функція 3</li>
+              </ul>
+            </td>
+            <td>
+              <ul>
+                <li><span class="green">✔</span> Функція 1</li>
+                <li><span class="green">✔</span> Функція 2</li>
+                <li><span class="green">✔</span> Функція 3</li>
+              </ul>
+            </td>
+            <td>
+              <ul>
+                <li><span class="green">✔</span> Функція 1</li>
+                <li><span class="green">✔</span> Функція 2</li>
+                <li><span class="green">✔</span> Функція 3</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><a href="#" class="sign-up-btn">Зареєструватися</a></td>
+            <td><a href="#" class="sign-up-btn">Зареєструватися</a></td>
+            <td><a href="#" class="sign-up-btn">Зареєструватися</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
+</html>
